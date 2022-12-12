@@ -22,6 +22,16 @@
     - adaptation-sony-bahamut
     - adaptation-sony-bahamut-configs
 
+.google_sargo_packages:
+  packages: &google_sargo_packages
+    - adaptation-google-sargo
+    - adaptation-google-sargo-configs
+
+.volla_yggdrasil_packages:
+  packages: &volla_yggdrasil_packages
+    - adaptation-volla-yggdrasil
+    - adaptation-volla-yggdrasil-configs
+
 ########################################################################
 # Recovery-flashable rootfses                                          #
 ########################################################################
@@ -52,6 +62,18 @@ rootfs:
       arch: arm64
       apilevel: 30
       packages: *sony_bahamut_packages
+
+    # Volla Phone
+    - name: droidian-adaptation-volla-yggdrasil
+      arch: arm64
+      apilevel: 28
+      packages: *volla_yggdrasil_packages
+
+    # Google Pixel 3a
+    - name: droidian-adaptation-google-sargo
+      arch: arm64
+      apilevel: 28
+      packages: *google_sargo_packages
 
 ########################################################################
 # Device specific images                                               #
@@ -94,3 +116,33 @@ sony_bahamut:
   apilevel: 30
 
   packages: *sony_bahamut_packages
+
+
+#
+# Volla
+#
+
+# Volla Phone (yggdrasil)
+volla_yggdrasil:
+  type: image
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 28
+
+  packages: *volla_yggdrasil_packages
+
+
+#
+# Google
+#
+
+# Google Pixel 3a (sargo)
+google_sargo:
+  type: image
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 28
+
+  packages: *google_sargo_packages
