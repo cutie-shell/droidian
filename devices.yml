@@ -51,17 +51,17 @@ rootfs:
       only_stable: yes
       packages: *devtools_packages
 
-    # # F(x)tec Pro1
-    # - name: droidian-adaptation-fxtec-pro1
-    #   arch: arm64
-    #   apilevel: 28
-    #   packages: *fxtec_pro1_packages
+    # F(x)tec Pro1
+    - name: droidian-adaptation-fxtec-pro1
+      arch: arm64
+      apilevel: 28
+      packages: *fxtec_pro1_packages
 
-    # # Sony Xperia 5
-    # - name: droidian-adaptation-sony-bahamut
-    #   arch: arm64
-    #   apilevel: 30
-    #   packages: *sony_bahamut_packages
+    # Sony Xperia 5
+    - name: droidian-adaptation-sony-bahamut
+      arch: arm64
+      apilevel: 30
+      packages: *sony_bahamut_packages
 
     # Volla Phone
     - name: droidian-adaptation-volla-yggdrasil
@@ -83,66 +83,66 @@ rootfs:
 # F(x)tec
 #
 
-# # F(x)tec Pro1 (qx1000)
-# fxtec_pro1:
-#   type: image
-#   arch: arm64
-#   edition: phosh
-#   variant: phone
-#   apilevel: 28
+# F(x)tec Pro1 (qx1000)
+fxtec_pro1:
+  type: image
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 28
 
-#   packages: *fxtec_pro1_packages
+  packages: *fxtec_pro1_packages
 
-# # F(x)tec Pro1-X (qx1050)
-# fxtec_pro1x:
-#   type: image
-#   arch: arm64
-#   edition: phosh
-#   variant: phone
-#   apilevel: 30
+# F(x)tec Pro1-X (qx1050)
+fxtec_pro1x:
+  type: image
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 30
 
-#   packages: *fxtec_pro1x_packages
+  packages: *fxtec_pro1x_packages
 
-# #
-# # Sony
-# #
+#
+# Sony
+#
 
-# # Sony Xperia 5 (bahamut)
-# sony_bahamut:
-#   type: image
-#   arch: arm64
-#   edition: phosh
-#   variant: phone
-#   apilevel: 30
+# Sony Xperia 5 (bahamut)
+sony_bahamut:
+  type: image
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 30
 
-#   packages: *sony_bahamut_packages
-
-
-# #
-# # Volla
-# #
-
-# # Volla Phone (yggdrasil)
-# volla_yggdrasil:
-#   type: image
-#   arch: arm64
-#   edition: phosh
-#   variant: phone
-#   apilevel: 28
-
-#   packages: *volla_yggdrasil_packages
+  packages: *sony_bahamut_packages
 
 
-# #
-# # Google
-# #
+#
+# Volla
+#
 
-# # Google Pixel 3a (sargo)
-# google_sargo:
-#   type: image
-#   arch: arm64
-#   edition: phosh
-#   variant: phone
-#   apilevel: 28
+# Volla Phone (yggdrasil)
+volla_yggdrasil:
+  type: image
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 28
 
-#   packages: *google_sargo_packages
+  packages: *volla_yggdrasil_packages
+
+
+#
+# Google
+#
+
+# Google Pixel 3a (sargo)
+google_sargo:
+  type: image
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 28
+
+  packages: *google_sargo_packages
