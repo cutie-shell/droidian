@@ -87,7 +87,7 @@ rootfs:
 fxtec_pro1:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 28
 
@@ -97,7 +97,7 @@ fxtec_pro1:
 fxtec_pro1x:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 30
 
@@ -111,7 +111,7 @@ fxtec_pro1x:
 sony_bahamut:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 30
 
@@ -126,7 +126,7 @@ sony_bahamut:
 volla_yggdrasil:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 28
 
@@ -141,7 +141,7 @@ volla_yggdrasil:
 google_sargo:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 28
 
