@@ -8,5 +8,5 @@
 	path = android-image-flashing-template
 	url = https://github.com/droidian-releng/android-image-flashing-template.git
 [submodule "rootfs-templates/"]
-	url = https://github.com/erikinkinen/rootfs-templates.git
+	url = https://github.com/cutie-shell/rootfs-templates.git
 	branch = master
