@@ -28,6 +28,7 @@ You should pick up the correct zipfile for your specific device:
 * Device with an Android 10 vendor: api29
 * Device with an Android 11 vendor: api30
 * Device with an Android 12/12.1 vendor: api32
+* Device with an Android 13 vendor: api33
 
 ## Recovery-flashable zipfile: bundles
 
@@ -37,6 +38,28 @@ Currently available bundles:
 
 * Devtools: Useful development tools for porters, not available in nightlies as they're embedded in the rootfs
 * Adaptation bundle: Device specific bundle (containing kernel, device-specific settings, etc)
+
+# Fastboot-flashable image: installation instructions
+
+## Preparations
+
+If your device is A/B device, it is necessary to have both slots on same Android version.
+
+Ensure you have `fastboot` installed.
+
+## Installation
+
+Extract the downloaded archive, then run:
+
+```
+./flash_all.sh
+```
+
+You might need to execute that as root and/or set SELinux to permissive depending on how your system is configured.
+
+## Finalizing installation
+
+The device will reboot automatically.
 
 # Recovery-flashable zipfile: installation instructions
 
