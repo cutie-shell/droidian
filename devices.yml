@@ -43,7 +43,7 @@
 
 rootfs:
   type: rootfs
-  arch: [armhf, arm64]
+  arch: [arm64]
   edition: cutie
   variant: phone
   apilevel: [28, 29, 30, 32, 33]
