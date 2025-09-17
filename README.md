@@ -1,9 +1,14 @@
 Droidian
 ========
 
+<p float="left">
+<img src="https://github.com/cutie-shell/cutie-shell-qt5/raw/bookworm/cutie.png" width="100px">
+<img src="https://avatars.githubusercontent.com/u/69109445?s=200&v=4" width="100px">
+</p>
+
 Droidian is a GNU/Linux distribution based on top of Mobian, a Debian-based distribution for mobile devices. The goal of Droidian is to be able to run Mobian on Android phones.
 
-This repository is the canonical place to get Droidian images.
+This repository is for Droidian builds containing a development snapshot of Cutie Shell.
 
 # Which image to get?
 
@@ -71,7 +76,7 @@ Then, boot your favourite Android recovery.
 
 From recovery open adb sideload mode (under advanced on TWRP) and run following commands on your computer replacing `ARCH_YYYYMMDD` with the version of Droidian and `vendor-device` with the vendor and device codenames:
 
-* `adb sideload droidian-OFFICIAL-phosh-phone-rootfs-apiXX-ARCH-VERSION_DATE.zip`
+* `adb sideload droidian-OFFICIAL-cutie-phone-rootfs-apiXX-ARCH-VERSION_DATE.zip`
 
 If you want to sideload devtools:
 
@@ -85,7 +90,7 @@ Note that you have to restart the sideload mode by tapping back and starting sid
 
 ## Finalizing installation
 
-Now, you have to reboot the device. It should boot to phosh (a graphical user interface used by Droidian) after rebooting once more automatically. When the device has booted, you can unlock the device with the default passcode `1234`.
+Now, you have to reboot the device. It should boot to Cutie after rebooting once more automatically.
 
 ## Troubleshooting
 

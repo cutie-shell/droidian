@@ -80,7 +80,7 @@
 rootfs:
   type: rootfs
   arch: [arm64]
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: [28, 29, 30, 32, 33]
 
@@ -106,7 +106,7 @@ rootfs:
 fxtec_pro1:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 28
   droidian_variant: fxtec
@@ -117,7 +117,7 @@ fxtec_pro1:
 fxtec_pro1x:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 30
   droidian_variant: fxtec
@@ -132,7 +132,7 @@ fxtec_pro1x:
 google_sargo:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 28
 
@@ -146,7 +146,7 @@ google_sargo:
 lenovo_bronco:
   type: image
   arch: arm64
-  edition: [phosh, plamo_wf_experimental]
+  edition: cutie
   variant: phone
   apilevel: 32
 
@@ -160,7 +160,7 @@ lenovo_bronco:
 sony_bahamut:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 30
 
@@ -174,7 +174,7 @@ sony_bahamut:
 volla_yggdrasil:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 28
 
@@ -184,7 +184,7 @@ volla_yggdrasil:
 volla_yggdrasilx:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 29
 
@@ -194,7 +194,7 @@ volla_yggdrasilx:
 volla_mimameid:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 32
 
@@ -204,7 +204,7 @@ volla_mimameid:
 volla_vidofnir:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 32
 
@@ -214,7 +214,7 @@ volla_vidofnir:
 volla_algiz:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 33
 
@@ -229,7 +229,7 @@ volla_algiz:
 volla_mimir:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 33
   droidian_variant: volla-mimir
@@ -244,7 +244,7 @@ volla_mimir:
 xiaomi_miatoll:
   type: image
   arch: arm64
-  edition: phosh
+  edition: cutie
   variant: phone
   apilevel: 29
 
